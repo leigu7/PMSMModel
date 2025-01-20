@@ -4,7 +4,7 @@ PP = 4; %number of polepairs
 ld = 0.0085; % d axis inductance
 lq = 0.0085; % d axis inductance
 Rs = 2.875;
-J = 0.0008; %moment of inertia
+J = 0.008; %moment of inertia
 PMflux = 0.175; %PM flux
 % feedback loop sampling rate
 % current sampling, rotor position sampling
@@ -38,3 +38,5 @@ KisS = BW/ damp^2;
 
 KpsP = KpsS;
 KisP = KpsS*KisS;
+Imax = 30;
+Umax = 400;
